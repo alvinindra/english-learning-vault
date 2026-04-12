@@ -10,6 +10,7 @@
           {
             "id": "6650246abd573dfa",
             "type": "tabs",
+            "dimension": 51.31428571428571,
             "children": [
               {
                 "id": "1391b649c8e71d1c",
@@ -17,12 +18,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "04 Practice/Flashcards.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "README"
+                  "title": "Flashcards"
                 }
               }
             ]
@@ -30,6 +31,7 @@
           {
             "id": "f18406b6c0c1fa73",
             "type": "tabs",
+            "dimension": 48.68571428571429,
             "children": [
               {
                 "id": "fed2eeb86cf49043",
@@ -70,7 +72,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: zsh"
+                  "title": "Terminal: OC | Git commit current status"
                 }
               }
             ]
@@ -239,21 +241,25 @@
   },
   "active": "fed2eeb86cf49043",
   "lastOpenFiles": [
-    "README.md",
-    "Templates/Daily Log.md",
+    "04 Practice/Flashcards.md",
+    "05 Visual Maps/Dev English Map.canvas",
     "Templates/Vocab Note.md",
-    "00 Start Here.md",
+    "Templates/Daily Log.md",
     "01 Vocabulary/_index.md",
+    "README.md",
+    "00 Start Here.md",
+    "02 Phrases/System Design Discussion.md",
+    "02 Phrases/Interview Phrases.md",
     "02 Phrases/Debugging.md",
+    "01 Vocabulary/General Programming.md",
+    "01 Vocabulary/Meetings & Code Review.md",
+    "01 Vocabulary/DevOps.md",
+    "01 Vocabulary/Frontend.md",
+    "03 Grammar/Simple Present for Documentation.md",
+    "03 Grammar/Imperative for Commands.md",
+    "05 Visual Maps",
     "02 Phrases/Daily Standup.md",
     "02 Phrases/Code Review Phrases.md",
-    "01 Vocabulary/Meetings & Code Review.md",
-    "01 Vocabulary/General Programming.md",
-    "01 Vocabulary/DevOps.md",
-    "01 Vocabulary/Backend.md",
-    "01 Vocabulary/Frontend.md",
-    "04 Practice/Flashcards.md",
-    "03 Grammar/Simple Present for Documentation.md",
-    "03 Grammar/Imperative for Commands.md"
+    "01 Vocabulary/Backend.md"
   ]
 }

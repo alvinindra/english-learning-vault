@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"start","type":"text","text":"English - Indonesian\nDeveloper Learning System","x":0,"y":0,"width":300,"height":80},
+		{"id":"vocab","type":"file","file":"01 Vocabulary/General Programming.md","x":-650,"y":160,"width":470,"height":140},
+		{"id":"phrases","type":"file","file":"02 Phrases/Daily Standup.md","x":400,"y":200,"width":220,"height":100},
+		{"id":"tip","type":"text","text":"Daily loop: Input -> Practice -> Recall\n15 min","x":0,"y":-150,"width":320,"height":70},
+		{"id":"practice","type":"file","file":"04 Practice/Flashcards.md","x":0,"y":640,"width":250,"height":100},
+		{"id":"system","type":"file","file":"01 Vocabulary/System Design.md","x":25,"y":230,"width":200,"height":310},
+		{"id":"backend","type":"file","file":"01 Vocabulary/Backend.md","x":-415,"y":430,"width":200,"height":80},
+		{"id":"frontend","type":"file","file":"01 Vocabulary/Frontend.md","x":-650,"y":430,"width":200,"height":80},
+		{"id":"review","type":"file","file":"02 Phrases/Code Review Phrases.md","x":400,"y":390,"width":200,"height":80},
+		{"id":"interview","type":"file","file":"02 Phrases/Interview Phrases.md","x":680,"y":385,"width":200,"height":80}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"start","fromSide":"bottom","toNode":"vocab","toSide":"top"},
+		{"id":"e2","fromNode":"start","fromSide":"bottom","toNode":"phrases","toSide":"top"},
+		{"id":"e3","fromNode":"vocab","fromSide":"bottom","toNode":"frontend","toSide":"top"},
+		{"id":"e4","fromNode":"vocab","fromSide":"bottom","toNode":"backend","toSide":"top"},
+		{"id":"e5","fromNode":"vocab","fromSide":"bottom","toNode":"system","toSide":"top"},
+		{"id":"e6","fromNode":"phrases","fromSide":"right","toNode":"interview","toSide":"top"},
+		{"id":"e7","fromNode":"phrases","fromSide":"bottom","toNode":"review","toSide":"top"},
+		{"id":"e8","fromNode":"frontend","fromSide":"bottom","toNode":"practice","toSide":"left"},
+		{"id":"e9","fromNode":"backend","fromSide":"right","toNode":"practice","toSide":"left"},
+		{"id":"e10","fromNode":"system","fromSide":"bottom","toNode":"practice","toSide":"top"}
+	]
+}

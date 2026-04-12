@@ -1,4 +1,4 @@
-# General Programming â Pemrograman Umum
+# General Programming - Pemrograman Umum
 #vocabulary #general
 
 | English | Indonesian | Type | Example EN | Contoh ID |
