@@ -1,4 +1,4 @@
-# English â Indonesian â Developer Learning Vault
+# English - Indonesian - Developer Learning Vault
 
 Welcome! This vault is your *second brain* for learning English as a programmer, with Indonesian translations.
 
